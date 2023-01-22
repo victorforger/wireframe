@@ -1,0 +1,22 @@
+.s-hero {
+    padding: 7.2rem 0;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .text {
+        width: 100%;
+        max-width: 64rem;
+    }
+
+    .image {
+        width: 100%;
+        max-width: 48.8rem;
+        height: 49.6rem;
+
+        background-color: $gray-8;
+    }
+}
