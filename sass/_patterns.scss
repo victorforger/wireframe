@@ -34,6 +34,12 @@ h3 {
 
     letter-spacing: -0.01em;
     color: $gray-1;
+
+    transition: transform 0.3s;
+
+    &:hover {
+        transform: scale(1.05);
+    }
 }
 
 .menu-item {
@@ -48,6 +54,13 @@ h3 {
     line-height: 105%;
     letter-spacing: -0.01em;
     color: $gray-4;
+
+    transition: all 0.3s;
+
+    &:hover {
+        background-color: #acb4bf;
+        color: $white;
+    }
 }
 
 @mixin responsive($screenWidth) {
